@@ -38,9 +38,11 @@ Mac:
     
 Windows:
     ``` 
+    
     <Follow these commands to start mongodb on windows>
     <Only do the command below the first time after installing mongodb>
     C:\Users\user>mkdir C:\data
+    
     <Type the command below this everytime you want to start mongodb>
     <If your install directory for mongodb is different from Program files replace it with your current mongo installiation directory>
     C:\Users\user> "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe" -f mongod.cfg
