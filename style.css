@@ -1,0 +1,156 @@
+body{
+    background: black;
+    background-image: url("../wallpaper.jpg");
+    background-size: cover;
+    color: rgb(184, 180, 180);
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: black;
+    font-size: medium;  
+    color: yellow;
+    background-position: fixed;
+
+}
+.secFont{
+    padding: 30px;
+    font-size: 20px;
+    color: yellow;
+}
+.secFontS{
+    padding: 20px;
+    color: yellow;
+    font-size: 25px;
+    
+}
+a{
+    color: white;
+}
+li{
+    display: inline-block;
+    width: 100px;
+    padding: 20px;
+    font-size: medium;
+}
+
+#pageTitle{
+    font-size: 200%;
+    
+    
+    
+}
+.footer{
+    background:black;
+    color: white;
+    font-size: medium;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: rgba(78, 72, 72, 0.055);
+}
+.indFont{
+    padding: 20px;
+    color: yellow;
+    position: absolute;
+    left:650px ;
+    
+
+    /*top: 170px;
+    right: 650px;*/
+}
+.indFont2{
+    padding: 20px;
+    color: yellow;
+    position: absolute;
+    top: 150px;
+    right: 740px;
+}
+.indSect{
+    background: rgb(0, 0, 0);
+    box-shadow: 0 5px 25px rgba(255, 255, 0, 0.918);
+    border-radius:20px;;
+    text-align: center;
+    padding: 40px 0px 100px 0px;
+    margin: 15px;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    color: black;
+    width: 20%;
+    padding: 1 em;
+    position :absolute;
+    top: 30%;
+}
+.content{
+   flex:8; 
+   height: 100%;
+   padding: 50px 100px 20px 700px;
+   overflow-y: scroll;
+   
+   
+}
+.page-title{
+    text-align: center;
+    margin-bottom: 4 rem;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(189, 140, 8);
+    border: 1 px solid black;
+    border-radius: 5 px;
+    cursor: pointer;
+}
+.top-title{
+    background-color: rgb(189, 140, 8);
+    border: 1 px solid black;
+    border-radius: 5 px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+th, td {
+   padding: 15 px;
+   text-align: left; 
+   border-bottom: 1px solid yellow;
+}
+.edit{
+color: whitesmoke;
+}
+.delete{
+color: red;
+}
+.publish{
+color: green;
+}
+.edit:hover,
+.delete:hover,
+.publish:hover{
+    text-decoration: underline;
+}
+
+form div{
+    margin-bottom: 15 px;
+}
+#custom-button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(93, 93, 93);
+    border: 1 px solid black;
+    border-radius: 5 px;
+    cursor: pointer;
+}
+#custom-button:hover{
+    background-color: rgb(152, 194, 152);  
+}
+#custom-text{
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+
+
