@@ -8,6 +8,7 @@ const expressEjsLayout = require('express-ejs-layouts');
 const passport = require('passport');
 const session = require('express-session');
 var path = require('path');
+const fs = require("fs");
 const flash = require('connect-flash');// ---> Import done 
 
 require("./config/passport")(passport)//'require' passport module from passport.js so that the user can login
