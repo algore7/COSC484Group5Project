@@ -1,0 +1,29 @@
+<!--//Code structure from: https://medium.com/better-programming/build-a-login-system-in-node-js-f1ba2abd19a-->
+<html>
+<link rel='stylesheet' href='/style.css' />
+<h1 class='regBody'> Login </h1>
+<%- include ('../partials/messages') %>
+
+<form action="/users/login" method="POST">
+<div class='regPage'>
+<!-- <label for="email">Email</label> -->
+<input
+type="email"
+name="email"
+placeholder="Enter Email"
+/>
+</div>
+<div class='regPage'>
+    <!--<label for="password">Password</label> -->
+    <input
+      type="password"
+      name="password"
+      placeholder="Enter Password"
+    />
+  
+</div>
+<button class='regButton' type="submit" class="btn btn-primary btn-block">Login</button>
+   
+</form>
+    <p class='regPage'>Don't An Account? <a href="/users/register">Register</a></p>
+</html>

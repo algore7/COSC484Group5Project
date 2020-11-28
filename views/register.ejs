@@ -1,0 +1,49 @@
+<!--//Code structure from: https://medium.com/better-programming/build-a-login-system-in-node-js-f1ba2abd19a-->
+<html>
+<link rel='stylesheet' href='/style.css' />
+<h1 class='regBody'>Register</h1>
+<%- include ('../partials/messages.ejs') %>
+<form action="/users/register" method="POST">
+<div class='regPage'>
+    <!-- <label for="name">Name</label>-->
+    <input
+      type="name"
+      name="name"
+      placeholder="Enter Name"
+      value="<%= typeof name != 'undefined' ? name : '' %>"
+    />
+  
+</div>
+<div class='regPage'>
+    <!-- <label for="email">Email</label> -->
+    <input
+      type="email"
+      name="email"
+      placeholder="Enter Email"
+      value="<%= typeof email != 'undefined' ? email : '' %>"
+    />
+  </div>
+  <div class='regPage'>
+   <!--  <label for="password">Password</label> -->
+    <input
+      type="password"
+      name="password"
+      placeholder="Create Password"
+      value="<%= typeof password != 'undefined' ? password : '' %>"
+    />
+  </div>
+  <div class='regPage'>
+    <!-- <label for="password2">Confirm Password</label> -->
+    <input
+      type="password"
+      name="password2"
+      placeholder="Confirm Password"
+      value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+    />
+  </div>
+  <button class='regButton' type="submit" class="btn btn-primary btn-block">
+    Register
+  </button>
+</form>
+<p class='regPage'>Have An Account? <a href="/users/login">Login</a></p>
+</html>

@@ -1,0 +1,77 @@
+<!--//Code structure from: https://medium.com/better-programming/build-a-login-system-in-node-js-f1ba2abd19a-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Towson COSC Backpack</title>
+    <!-- <h1 id="title">My COSC Backpack</h1> -->
+
+    <link rel="stylesheet" type="text/css" link href="design.css">
+
+</head>
+
+<body>
+
+    <!-- This is for the image banner, in an effort to make it more akin to towson's website
+        **Delano  -->
+    <div>
+
+        <header id="header">
+            <br>
+            <h1 id="pageDesc"> Fisher College of Science and Mathematics Backpack</h1>
+        </header>
+
+
+        <ul class="pageLink" style="list-style-type: none;">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Class Forum">Class Forum</a></li>
+            <li><a href="#Major/Minor Requirments">Major/Minor Requirments</a></li>
+            <li><a href="/users/logout">Logout</a></li>
+        </ul>
+        
+        <div>
+            <br><br><br><br>
+        </div>
+
+    </div>
+
+    <div>
+        <br><br><br><br><br>
+    </div>
+    <form id="buttonForm" method="GET">
+        <br>
+        <h2 class="buttonForm-question">What do you want to do today?</h2>
+        <br>
+
+        <!-- Delano; The problem where only words contained an active link is now fixed. 
+                        The entire button's clickable area will now direct you to the necessary page:
+                            Solution was to add an onclick in lieu of the a tags -->
+        <center>
+            <button id="centralButton" type="submit"  onclick="javascript: form.action='/forum';">Class Forum Registration</button>
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/backpack';"> My Backpack</button>
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/requirements';">Requirements</button>
+
+            <br>
+
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/profile';"> Profile</button>
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/faculty';">Faculty Contacts</button>
+            <button id="centralButton" type="submit"onclick="javascript: form.action='/cBackpack';" >Community Backpack</button>
+
+        </center>
+
+    </form>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
+
+
+</body>
+
+</html>

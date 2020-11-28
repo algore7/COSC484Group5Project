@@ -1,0 +1,57 @@
+body{
+    background-image:url('bg1.jpg');
+}
+
+h1, p{
+    color:white;
+}
+
+a{
+    color:gold;
+    
+}
+
+h1.welHead{
+    font-size: 48px;
+    text-align: center;
+}
+
+p.welBody{
+    font-size:24px;
+    text-align: center;
+}
+
+a.welLink{
+    font-size:20px;
+    
+}
+.lnkButton{
+    background-color: black;
+    border-style: double;
+    border-color: gold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 5%;
+    left:45%;
+}
+.regBody{
+    font-size:24px;
+    text-align: center;
+}
+
+.regPage{
+    color:white;
+    position: relative;
+    top: 5%;
+    left:45%;
+}
+.regButton{
+    position: relative;
+    top: 5%;
+    left:45%;
+}
+
