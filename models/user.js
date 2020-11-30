@@ -24,6 +24,4 @@ enrolledClass :{
 });
 const User= mongoose.model('User',UserSchema);//Creats const user variable that can be called
 
-console.log('User: ', User.name);
-
 module.exports = User;//Exports the variable

@@ -1,4 +1,12 @@
+
+
+
+
 /* What does this do? ** Delano */
+
+/*Astrid is uninversal CSS selector (applies to all elements)*/
+/*Margin and padding removes default marg and pad for objects on the page
+keeps design consistent across browsers. -Katie*/
 *{
     margin:0;
     padding:0;
@@ -17,10 +25,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 /*might take this out.. put block behind buttons...*/
 #buttonForm{
     background-color: rgb(249, 247, 235);
-    
+
 }
 
 /* Edited to inlclude a specifc class/IDs below. That way we have very specific control of what button we're editing, 
@@ -44,6 +54,7 @@ body{
     box-shadow: none;
     background: black;
     color:rgb(247, 183, 23);
+
 }
 
 #title{
@@ -57,10 +68,10 @@ body{
     max-width: 75%;
     margin-left: 100px;
     height: 520px;
-    background-color: blanchedalmond;
+    background-color: rgb(252, 243, 228);
 
     border: 2px solid rgb(247, 183, 23);
-    border-radius: 25px;
+    border-radius: 4px;
 } 
 
 #header{
@@ -68,21 +79,21 @@ body{
     background-color: rgb(0, 0, 0);
     color: rgb(247, 183, 23);
 
-
     /* This is to vertically center the text */
     height: 100px;
     position: relative;
 
     border: 2px solid rgb(247, 183, 23);
-    border-radius: 25px;
-
+    border-radius: 4px;
 
     /* overflow: hidden; */
-    position: fixed;
-    
+   /* position: fixed; this makes it move down the page. want static -KD*/
+
     top: auto;
     width: 100%;
 }
+
+
 
 .pageLink {
     float: left;
@@ -94,7 +105,7 @@ body{
     background-color: rgb(0, 0, 0);
     color: rgb(247, 183, 23);
 
-    position: fixed;
+    /*position: fixed;*/
     top: 15%;
 
     margin-left: 20px;
@@ -120,12 +131,12 @@ li a:hover {
 
     /* To make sure the button retains shape, on hover */
     border: 2px solid rgb(247, 183, 23);
-    border-radius: 25px;
+    border-radius: 4px;
 }
 
 ul{
     border: 2px solid rgb(247, 183, 23);
-    border-radius: 25px;
+    border-radius: 4px;
 }
 
 #pageDesc{
@@ -137,17 +148,84 @@ ul{
 }
 
 
-#test{
-    color:white;
-}
-
 .buttonForm-question{
     margin-left: 100px;
 }
 
-button a{
-    color:black;
+
+
+
+
+
+
+
+/*serves as container for all images inside banner*/
+
+.main-banner{
+
+    margin: 0 auto;  /*this centers the banner*/
+    width: 1200px;  
+    height: 400px;
+    background-color: #fff;
+    overflow: hidden;    /*hides everythig outside of box*/
+    position: relative;  /*need precision absoloute*/
 }
-button:hover a{
-    color:gold;
+
+
+.main-banner .imgban {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top: 0px;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}
+
+
+/* styling for the IDs */
+
+.main-banner #imgban3 {
+    
+    background-image: url("Towson3.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+.main-banner #imgban2 {
+    
+    background-image: url("Towson2.jpg");
+    background-size: cover;
+    background-position:center;
+
+}
+
+.main-banner #imgban1 {
+    
+    background-image: url("Towson1.jpg");
+    background-size: cover;
+    background-position:center;
+
+}
+
+
+
+.bottom{
+    bottom:0px;
+    margin:10px;
+    color: #fff;
+    width: 100%;
+    text-align:center;
+
+}
+
+.bottomCent{
+    bottom:0px;
+    margin: 10px;
+    color:#fff;
+    width: 100%;
+    text-align: center;
 }
