@@ -29,7 +29,7 @@
         <ul class="pageLink" style="list-style-type: none;">
             <li><a href="/dashboard">Home</a></li>
             <li><a href="/forum">The Forum</a></li>
-            <li><a href="#Major/Minor Requirments">Major/Minor Requirments</a></li>
+            <li><a href="/requirements">Major/Minor Requirments</a></li>
             <li><a href="/users/logout">Logout</a></li>
         </ul>
         
@@ -47,15 +47,15 @@
         <h2 class="buttonForm-question">What do you want to do today?</h2>
         <br>
         <center>
-            <button id="centralButton" type="submit"><a class='dBoard' href="/forum">Forum</a></button>
-            <button id="centralButton" type="submit"><a class='dBoard' href="/backpack"> My Backpack </a></button>
-            <button id="centralButton" type="submit"><a class='dBoard' href="/requirements"> Requirements </a></button>
+            <button id="centralButton" type="submit"  onclick="javascript: form.action='/forum';">Class Forum Registration</button>
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/backpack';"> My Backpack</button>
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/requirements';">Requirements</button>
 
             <br>
 
-            <button id="centralButton" type="submit"><a class='dBoard' href="/profile"> Profile </a></button>
-            <button id="centralButton" type="submit"><a class='dBoard' href="/faculty">Faculty Contacts </a></button>
-            <button id="centralButton" type="submit"><a class='dBoard' href="/cBackpack"> Community Backpack</a></button>
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/profile';"> Profile</button>
+            <button id="centralButton" type="submit" onclick="javascript: form.action='/faculty';">Faculty Contacts</button>
+            <button id="centralButton" type="submit"onclick="javascript: form.action='/cBackpack';" >Community Backpack</button>
 
         </center>
 
