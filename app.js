@@ -9,6 +9,7 @@ const passport = require('passport');
 const session = require('express-session');
 var path = require('path');
 const fs = require("fs");
+const PORT = process.env.PORT || 5000
 const flash = require('connect-flash');// ---> Import done 
 
 require("./config/passport")(passport)//'require' passport module from passport.js so that the user can login
@@ -51,4 +52,4 @@ app.use('/',require('./routes/index'));
 app.use('/users',require('./routes/users'));
 app.use(express.static(path.join(__dirname, './public')));
 
-.listen(process.env.PORT || 5000)
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
