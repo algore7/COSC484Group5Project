@@ -1,8 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+<%- include ('../partials/messages.ejs') %>
+<link rel='stylesheet' href='/rstyles.css' />
 <head>
-    <link rel='stylesheet' href='/style.css' />
-    <h1>test</h1>
-    <p><a href='/dashboard'>Click here to go back</a></p>
+    <body>
+    <% var forumHeader = '' %>
+    <% var forumBody = '' %>
+    <div>
+        
+            <%for (var i=0; i< fPosts.length; i++){ %>
+            <div id="buttonForm">
+                <% forumHeader += (fPosts[i].postTitle) + ' ' + (fPosts[i].postDate) + ' ' + (fPosts[i].postUser) + '\n ' %> 
+                <% forumBody = (fPosts[i].postComments.commentUser)+ ': ' + (fPosts[i].postComments.comments) %> 
+                <p>Forum name: <%=forumHeader  %></p>
+                <p>Comments: <%=forumBody  %></p>
+                <% forumHeader= '' %>
+            <%}%>
+            </div>
+            <div>
+                <p class='txtStylePop'> Add a new forum!</p>
+                <form action="/forums" method="POST">
+                    <input
+                        id="postTitle"
+                        type="postTitle"
+                        name="postTitle"
+                        placeholder="Enter a forum title!"
+                    />
+                    <input
+                        id="commentUser"
+                        type="hidden"
+                        name="commentUser"
+                        value= "<%= user.name %> "
+                    />
+                    <input
+                        id="comments"
+                        type="comments"
+                        name="comments"
+                        placeholder="Enter forum comment"
+                    />
+                    <input
+                        id="postDate"
+                        type="hidden"
+                        name="postDate"
+                        value= "<%= d =new Date(); %>"
+                    />
+                    <input
+                        id="postUser"
+                        type="hidden"
+                        name="postUser"
+                        value= "<%= user.name %> "
+                    />
+                    <input type="submit">
+                </form>
+            </div>
+        <p><a href='/dashboard'>Click here to return to dashboard!</a></p>
+    </div> 
+        
+    
+    </body>
 </head>
 </html>

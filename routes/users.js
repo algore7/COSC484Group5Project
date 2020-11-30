@@ -3,9 +3,11 @@
 const express = require('express');//Import all necessary modules <!---
 const router = express.Router();
 const User = require("../models/user.js");
+
 var mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const passport = require('passport');// ---> Import done
+const {ensureAuthenticated} = require("../config/auth.js")// ---> Import done 
 
 //login handle
 router.get('/login',(req,res)=>{
@@ -16,6 +18,8 @@ router.get('/login',(req,res)=>{
 router.get('/register',(req,res)=>{
     res.render('register')
     })
+
+
 
 //Register handle
 router.post('/register',(req,res)=>{
@@ -51,7 +55,8 @@ router.post('/register',(req,res)=>{
             const newUser = new User({
                 name : name,
                 email : email,
-                password : password
+                password : password,
+                enrolledClass : "COSC-484.102"
             })
             //hash password
             bcrypt.genSalt(10,(err,salt)=> 
@@ -68,6 +73,9 @@ router.post('/register',(req,res)=>{
                     res.redirect('/users/login');
                     })
                     .catch(value=> console.log(value));
+                    User.create(newUser,function(error){
+                        
+                    });
                 }));
         }
         });
@@ -89,4 +97,7 @@ router.get('/logout',(req,res)=>{
     res.redirect('/users/login');
 
  })
+
+
+
 module.exports  = router;

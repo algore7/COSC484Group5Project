@@ -1,0 +1,1830 @@
+body {
+    background-image: url("bg1.jpg");
+    font-family     : Arial, Helvetica, sans-serif;
+}
+
+.requirements-desc {
+    color     : rgb(247, 183, 23);
+    text-align: left;
+}
+
+.page-title {
+    color: white;
+    border           : 2px solid rgb(247, 183, 23);
+    border-radius    : 30px;
+    max-width        : 75%;
+    background-color: black;
+}
+
+table {
+    color: white;
+}
+
+#course-table td {
+
+    padding-top   : 12px;
+    padding-bottom: 12px;
+    text-align    : left;
+}
+
+
+.requirements-desc {
+    border           : 2px solid rgb(247, 183, 23);
+    border-radius    : 30px;
+    max-width        : 75%;
+    /* padding-top   : 30px;
+    padding-right    : 30px;
+    padding-bottom   : 30px;
+    padding-left     : 30px; */
+    padding          : 30px;
+    background-color : blanchedalmond;
+    color            : black;
+    text-align       : center;
+
+}
+
+
+.back-to-dashboard {
+    float  : left;
+    display: block;
+
+    /* border: 2px solid rgb(247, 183, 23);
+    border-radius: 45px; */
+
+    background-color: rgb(0, 0, 0);
+    color           : rgb(247, 183, 23);
+
+    /* position: fixed; */
+    top: 15%;
+
+    margin-left: 20px;
+
+
+    border       : 2px solid rgb(247, 183, 23);
+    border-radius: 30px;
+
+    padding: 8px;
+}
+
+.cosc-ccourselist {
+    background-color: blanchedalmond;
+    color           : black;
+    padding         : 30px;
+
+    border       : 2px solid rgb(247, 183, 23);
+    border-radius: 30px;
+}
+
+.cosc-ccourselist td,
+.cosc-ccourselist th {
+    border : 1px solid #ddd;
+    padding: 8px;
+}
+
+.cosc-ccourselist caption {
+    background-color: blanchedalmond;
+    padding         : 1px;
+}
+
+/* 
+        the hover section
+ */
+.cosc377 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc377 .cosc377text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc377:hover .cosc377text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc236 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc236 .cosc236text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc236:hover .cosc236text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc237 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc237 .cosc237text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc237:hover .cosc237text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc290 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc290 .cosc290text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc290:hover .cosc290text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc336 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc336 .cosc336text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc336:hover .cosc336text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc350 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc350 .cosc350text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc350:hover .cosc350text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc412 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc412 .cosc412text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc412:hover .cosc412text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc439 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc439 .cosc439text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc439:hover .cosc439text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc455 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc455 .cosc455text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc455:hover .cosc455text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc457 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc457 .cosc457text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc457:hover .cosc457text {
+    visibility: visible;
+}
+
+/* next course*/
+.math263 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math263 .math263text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math263:hover .math263text {
+    visibility: visible;
+}
+
+/* next course*/
+.math267 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math267 .math267text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math267:hover .math267text {
+    visibility: visible;
+}
+
+/* next course*/
+.math273 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math273 .math273text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math273:hover .math273text {
+    visibility: visible;
+}
+
+/* next course*/
+.math274 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math274 .math274text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math274:hover .math274text {
+    visibility: visible;
+}
+
+/* next course*/
+.math330 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math330 .math330text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math330:hover .math330text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc417 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc417 .cosc417text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc417:hover .cosc417text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc432 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc432 .cosc432text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc432:hover .cosc432text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc436 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc436 .cosc436text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc436:hover .cosc436text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc459 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc459 .cosc459text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc459:hover .cosc459text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc461 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc461 .cosc461text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc461:hover .cosc461text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc471 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc471 .cosc471text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc471:hover .cosc471text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc483 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc483 .cosc483text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc483:hover .cosc483text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc397 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc397 .cosc397text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc397:hover .cosc397text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc495 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc495 .cosc495text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc495:hover .cosc495text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc431 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc431 .cosc431text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc431:hover .cosc431text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc435 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc435 .cosc435text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc435:hover .cosc435text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc440 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc440 .cosc440text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc440:hover .cosc440text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc442 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc442 .cosc442text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc442:hover .cosc442text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc450 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc450 .cosc450text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc450:hover .cosc450text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc458 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc458 .cosc458text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc458:hover .cosc458text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc465 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc465 .cosc465text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc465:hover .cosc465text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc484 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc484 .cosc484text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc484:hover .cosc484text {
+    visibility: visible;
+}
+
+/* next course*/
+.astr161 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.astr161 .astr161text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.astr161:hover .astr161text {
+    visibility: visible;
+}
+
+/* next course*/
+.astr181 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.astr181 .astr181text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.astr181:hover .astr181text {
+    visibility: visible;
+}
+
+/* next course*/
+.bio200 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.bio200 .bio200text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.bio200:hover .bio200text {
+    visibility: visible;
+}
+
+/* next course*/
+.bio200L {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.bio200L .bio200Ltext {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.bio200L:hover .bio200Ltext {
+    visibility: visible;
+}
+
+
+/* next course*/
+.biol202 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.biol202 .biol202text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.biol202:hover .biol202text {
+    visibility: visible;
+}
+
+/* next course*/
+.chem131 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.chem131 .chem131text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.chem131:hover .chem131text {
+    visibility: visible;
+}
+
+/* next course*/
+.chem131L {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.chem131L .chem131Ltext {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.chem131L:hover .chem131Ltext {
+    visibility: visible;
+}
+
+/* next course*/
+.chem132 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.chem132 .chem132text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.chem132:hover .chem132text {
+    visibility: visible;
+}
+
+/* next course*/
+.chem132L {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.chem132L .chem132Ltext {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.chem132L:hover .chem132Ltext {
+    visibility: visible;
+}
+
+/* next course*/
+.geol121 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.geol121 .geol121text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.geol121:hover .geol121text {
+    visibility: visible;
+}
+
+/* next course*/
+.phys241 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.phys241 .phys241text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.phys241:hover .phys241text {
+    visibility: visible;
+}
+
+/* next course*/
+.phys242 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.phys242 .phys242text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.phys242:hover .phys242text {
+    visibility: visible;
+}
+
+/* next course*/
+.math265 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math265 .math265text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math265:hover .math265text {
+    visibility: visible;
+}
+
+/* next course*/
+.math275 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math275 .math275text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math275:hover .math275text {
+    visibility: visible;
+}
+
+/* next course*/
+.math314 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math314 .math314text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math314:hover .math314text {
+    visibility: visible;
+}
+
+/* next course*/
+.math315 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math315 .math315text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math315:hover .math315text {
+    visibility: visible;
+}
+
+/* next course*/
+.math315 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math315 .math315text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math315:hover .math315text {
+    visibility: visible;
+}
+
+/* next course*/
+.math369 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math369 .math369text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math369:hover .math369text {
+    visibility: visible;
+}
+
+/* next course*/
+.math374 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math374 .math374text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math374:hover .math374text {
+    visibility: visible;
+}
+
+/* next course*/
+.math377 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math377 .math377text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math377:hover .math377text {
+    visibility: visible;
+}
+
+/* next course*/
+.math378 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math378 .math378text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math378:hover .math378text {
+    visibility: visible;
+}
+
+/* next course*/
+.math435 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math435 .math435text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math435:hover .math435text {
+    visibility: visible;
+}
+
+/* next course*/
+.math437 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math437 .math437text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math437:hover .math437text {
+    visibility: visible;
+}
+
+/* next course*/
+.math451 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.math451 .math451text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.math451:hover .math451text {
+    visibility: visible;
+}
+
+/* next course*/
+.comm131 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.comm131 .comm131text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.comm131:hover .comm131text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc418 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc418 .cosc418text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc418:hover .cosc418text {
+    visibility: visible;
+}
+
+/* next course*/
+.engl317 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.engl317 .engl317text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.engl317:hover .engl317text {
+    visibility: visible;
+}
+
+/* next course*/
+.cosc175 {
+    position     : relative;
+    display      : inline-bock;
+    border-bottom: 1px solid black;
+    margin-left  : 20px
+}
+
+.cosc175 .cosc175text {
+    visibility      : hidden;
+    width           : 310px;
+    background-color: cornsilk;
+    color           : black;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 20px;
+    font-size       : smaller;
+    border          : 2px solid rgb(247, 183, 23);
+    border-radius   : 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index : 1;
+}
+
+.cosc175:hover .cosc175text {
+    visibility: visible;
+}

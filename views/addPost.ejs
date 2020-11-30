@@ -9,7 +9,7 @@
         <header class ="header">
         <img src ="Capture.PNG" alt="">
             <nav>
-            <ul class = >
+            <ul>
                 <li><a href ="/dashboard">Homepage</a></li>
                 <li><a href ="/forum">Forum page</a></li>
                 <li><a href ="/cBackpack">Community Backpack</a></li>
@@ -20,22 +20,40 @@
         </nav>
     </header>
 <div class = "indSect">
-    <div><a href ="/fileUpload"><b> Upload Files</b> </a></div>
-    <div><a href ="/myFile"><b>My Files</b> </a></div>
-    
+    <div><a href ="/viewPost"><b>View Post</b> </a></div>
 </div>
 
-        <section class = "indFont">
-            <h1> <b id = "pageTitle"> INDIVIDUAL BACKPACK:</b></h1>
-            <p> This is where students can save their files  and documents individually!!! </p>
-            </section>
 
-        <footer class ="footer">
-            <ul>
-                <li><a href ="/dashboard">Homepage</a></li>
-                <li><a href ="/forum">Forum page</a></li>
-            </ul>
-        </footer>
+<div class = "content">
+    <h2 class = "page-title">Add Post</h2>
+  <form action="" method="post">
+      <div>
+          <label>Title: </label>
+          <input type="text" name="title"  class="text-input">
+      </div>
+      <br> </br>
+      <div>
+          <label>Content</label><br>
+          <textarea name = "body" id= "body"></textarea>
+      </div>
+      <br> </br>
+      
+      <div>
+          <button type="submit" class="">Add Post</button>
+      </div>
+  </form>
+</div>
+
+
+
+
+<!-- Ckeditor-->
+<script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/classic/ckeditor.js"></script>
+
+<!-- Scripts-->
+<script src = "./script.js"></script>
+
+
     </body>
 
 </html>

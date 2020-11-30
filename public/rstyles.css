@@ -2,10 +2,6 @@ body{
     background-image:url('bg1.jpg');
 }
 
-h1, p{
-    color:white;
-}
-
 a{
     color:gold;
     
@@ -43,21 +39,30 @@ a.welLink{
     text-align: center;
 }
 
-.regPage{
-    color:white;
-    position: relative;
-    top: 5%;
-    left:45%;
-}
 .regButton{
     position: relative;
     top: 5%;
     left:45%;
 }
 
-*{
-    margin:0;
-    padding:0;
+.txtStylePop{
+        color: rgb(247, 183, 23);
+
 }
 
+/*might take this out.. put block behind buttons...*/
+#buttonForm{
+    background-color: rgb(0, 0, 0);
+    color: rgb(247, 183, 23);
 
+
+    /* This is to vertically center the text */
+    height: auto;
+    width: auto;
+
+
+    border: 2px solid rgb(247, 183, 23);
+    border-radius: 5px;
+
+
+}
