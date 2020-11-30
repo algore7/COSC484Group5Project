@@ -14,7 +14,7 @@ const flash = require('connect-flash');// ---> Import done
 require("./config/passport")(passport)//'require' passport module from passport.js so that the user can login
 
 //Mongoose functionality here; if successful prints success message, if unsuccessful prints error.
-mongoose.connect('mongodb://localhost/test',{useNewUrlParser: true, useUnifiedTopology : true})
+mongoose.connect('mongodb+srv://alexAdmin:Tvme8I6au5LWQsDX@cluster0.7ehvw.mongodb.net/Cluster0?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology : true})
 .then(() => console.log('Mongoose has connected to MongoDB.\nStarting webservice...'))
 .catch((err)=> console.log(err));
 
