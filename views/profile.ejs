@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel='stylesheet' href='/style.css' />
+<head id="header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Towson COSC Backpack</title>
+    <!-- <h1 id="title">My COSC Backpack</h1> -->
+
+    <link rel="stylesheet" type="text/css" link href="/rstyles.css">
+
 </head>
+
 <body>
-    <h1>Profile page</h1>
+
+    <div>
+
+        <header id="buttonForm">
+            <br>
+            <h1>Welcome <%= user.name %>!</h1>
+            <h1>Email: <%= user.email %></h1>
+            <h1>Registration date: <%= user.date %></h1>
+            <h1>Class: <%= user.enrolledClass %></h1>
+        </header>
+        <p><a href='/dashboard'>Click here to return to dashboard!</a></p>
+
+    </div>
+    
 </body>
 </html>

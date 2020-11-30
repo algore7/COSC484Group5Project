@@ -20,7 +20,7 @@ body{
 /*might take this out.. put block behind buttons...*/
 #buttonForm{
     background-color: rgb(249, 247, 235);
-
+    
 }
 
 /* Edited to inlclude a specifc class/IDs below. That way we have very specific control of what button we're editing, 
@@ -136,6 +136,10 @@ ul{
     transform: translateY(-50%);
 }
 
+
+#test{
+    color:white;
+}
 
 .buttonForm-question{
     margin-left: 100px;

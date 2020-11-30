@@ -22,13 +22,13 @@
 
         <header id="header">
             <br>
-            <h1 id="pageDesc"> Fisher College of Science and Mathematics Backpack</h1>
+            <h1 id="pageDesc"> Fisher College of Science and Mathematics Backpack. Welcome <%= user.name %>!</h1>
         </header>
 
 
         <ul class="pageLink" style="list-style-type: none;">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Class Forum">Class Forum</a></li>
+            <li><a href="/dashboard">Home</a></li>
+            <li><a href="/forum">The Forum</a></li>
             <li><a href="#Major/Minor Requirments">Major/Minor Requirments</a></li>
             <li><a href="/users/logout">Logout</a></li>
         </ul>
@@ -47,7 +47,7 @@
         <h2 class="buttonForm-question">What do you want to do today?</h2>
         <br>
         <center>
-            <button id="centralButton" type="submit"><a class='dBoard' href="/forum"> Class Forum Registration</a></button>
+            <button id="centralButton" type="submit"><a class='dBoard' href="/forum">Forum</a></button>
             <button id="centralButton" type="submit"><a class='dBoard' href="/backpack"> My Backpack </a></button>
             <button id="centralButton" type="submit"><a class='dBoard' href="/requirements"> Requirements </a></button>
 
